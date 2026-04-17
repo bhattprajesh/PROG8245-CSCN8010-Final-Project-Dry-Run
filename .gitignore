@@ -15,9 +15,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
 
 # Project-specific large files
 *.pkl
