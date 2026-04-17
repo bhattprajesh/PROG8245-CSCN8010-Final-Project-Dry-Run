@@ -1,0 +1,78 @@
+# =============================================
+# .gitignore for Campus Support Assistant
+# =============================================
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Project-specific large files
+*.pkl
+*.model
+*.bin
+*.gz
+*.zip
+
+# GloVe embeddings (can be very large)
+*.txt
+glove*.txt
+glove*.zip
+
+# Data and knowledge base files (if any)
+data/
+*.json
+*.csv
+*.tsv
+
+# Streamlit & Gradio specific
+.streamlit/
+.gradle/
+.DS_Store
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Audio temporary files (from gTTS / speech recognition)
+*.mp3
+*.wav
+*.flac
+*.m4a
